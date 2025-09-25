@@ -10,6 +10,9 @@
 }, {
   "@id" : "http://www.sfb1574.kit.edu/core#Jan_Felix_Klein",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://orcid.org/0000-0002-3704-9567"
+  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Jan-Felix Klein"
   } ]
@@ -31,6 +34,9 @@
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://orcid.org/0000-0002-3704-9567",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://w3id.org/circularfactory/ci_test",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],

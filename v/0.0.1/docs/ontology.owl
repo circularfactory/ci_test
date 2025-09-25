@@ -136,8 +136,23 @@
 
 
     <owl:NamedIndividual rdf:about="http://www.sfb1574.kit.edu/core#Jan_Felix_Klein">
+        <owl:sameAs rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
         <foaf:name>Jan-Felix Klein</foaf:name>
     </owl:NamedIndividual>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3704-9567 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567"/>
+    
+
+
+    <!-- https://orcid.org/0000-0002-3704-9567 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567"/>
 </rdf:RDF>
 
 
