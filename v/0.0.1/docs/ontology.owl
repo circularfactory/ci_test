@@ -11,7 +11,7 @@
     <owl:Ontology rdf:about="https://w3id.org/circularfactory/ci_test">
         <owl:versionIRI rdf:resource="https://w3id.org/circularfactory/ci_test/0.0.1"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</terms:created>
-        <terms:creator rdf:resource="http://www.sfb1574.kit.edu/core#Jan_Felix_Klein"/>
+        <terms:creator rdf:resource="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:label>Example Ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>
@@ -90,10 +90,10 @@
     
 
 
-    <!-- http://www.sfb1574.kit.edu/core#myObjectProperty -->
+    <!-- https://w3id.org/circularfactory/ci_test#myObjectProperty -->
 
 
-    <owl:ObjectProperty rdf:about="http://www.sfb1574.kit.edu/core#myObjectProperty">
+    <owl:ObjectProperty rdf:about="https://w3id.org/circularfactory/ci_test#myObjectProperty">
         <rdfs:comment>An example object property</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -111,10 +111,10 @@
     
 
 
-    <!-- http://www.sfb1574.kit.edu/core#myClass -->
+    <!-- https://w3id.org/circularfactory/ci_test#myClass -->
 
 
-    <owl:Class rdf:about="http://www.sfb1574.kit.edu/core#myClass">
+    <owl:Class rdf:about="https://w3id.org/circularfactory/ci_test#myClass">
         <rdfs:comment>An example class</rdfs:comment>
     </owl:Class>
     
@@ -132,27 +132,28 @@
     
 
 
-    <!-- http://www.sfb1574.kit.edu/core#Jan_Felix_Klein -->
+    <!-- https://orcid.org/0000-0002-3704-9567 -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.sfb1574.kit.edu/core#Jan_Felix_Klein">
-        <owl:sameAs rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
-        <foaf:name>Jan-Felix Klein</foaf:name>
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567">
+        <owl:sameAs rdf:resource="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://orcid.org/0000-0002-3704-9567 -->
+    <!-- https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein -->
 
 
-    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567"/>
+    <rdf:Description rdf:about="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein"/>
     
 
 
-    <!-- https://orcid.org/0000-0002-3704-9567 -->
+    <!-- https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein -->
 
 
-    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein">
+        <foaf:name>Jan-Felix Klein</foaf:name>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
