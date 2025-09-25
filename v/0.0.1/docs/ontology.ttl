@@ -12,6 +12,7 @@
                                          <http://purl.org/dc/terms/creator> "Etienne Hoffmann" ,
                                                                             "Jan-Felix Klein" ;
                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                         rdfs:label "Example Ontology" ;
                                          owl:versionInfo "0.0.1" .
 
 #################################################################

@@ -13,6 +13,7 @@
         <terms:creator>Etienne Hoffmann</terms:creator>
         <terms:creator>Jan-Felix Klein</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <rdfs:label>Example Ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>
     </owl:Ontology>
     

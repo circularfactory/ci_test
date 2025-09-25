@@ -33,6 +33,9 @@
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Example Ontology"
+  } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/circularfactory/test/0.0.1"
   } ],

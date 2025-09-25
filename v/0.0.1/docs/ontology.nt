@@ -4,6 +4,7 @@
 <https://w3id.org/circularfactory/test> <http://purl.org/dc/terms/creator> "Etienne Hoffmann" .
 <https://w3id.org/circularfactory/test> <http://purl.org/dc/terms/creator> "Jan-Felix Klein" .
 <https://w3id.org/circularfactory/test> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/circularfactory/test> <http://www.w3.org/2000/01/rdf-schema#label> "Example Ontology" .
 <https://w3id.org/circularfactory/test> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
 # 
 # 
