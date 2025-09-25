@@ -52,6 +52,13 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/name -->
 
 
@@ -132,26 +139,11 @@
     
 
 
-    <!-- https://orcid.org/0000-0002-3704-9567 -->
-
-
-    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567">
-        <owl:sameAs rdf:resource="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein -->
-
-
-    <rdf:Description rdf:about="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein"/>
-    
-
-
     <!-- https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein -->
 
 
     <owl:NamedIndividual rdf:about="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein">
+        <foaf:homepage rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
         <foaf:name>Jan-Felix Klein</foaf:name>
     </owl:NamedIndividual>
 </rdf:RDF>
