@@ -20,7 +20,7 @@
     "@value" : "An example object property"
   } ]
 }, {
-  "@id" : "https://w3id.org/circularfactory/test",
+  "@id" : "https://w3id.org/circularfactory/ci_test",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/created" : [ {
     "@value" : "2025-01-25"
@@ -37,7 +37,7 @@
     "@value" : "Example Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/circularfactory/test/0.0.1"
+    "@id" : "https://w3id.org/circularfactory/ci_test/0.0.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.0.1"

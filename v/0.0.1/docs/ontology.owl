@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/circularfactory/test#"
-     xml:base="https://w3id.org/circularfactory/test"
+<rdf:RDF xmlns="https://w3id.org/circularfactory/ci_test#"
+     xml:base="https://w3id.org/circularfactory/ci_test"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/circularfactory/test">
-        <owl:versionIRI rdf:resource="https://w3id.org/circularfactory/test/0.0.1"/>
+    <owl:Ontology rdf:about="https://w3id.org/circularfactory/ci_test">
+        <owl:versionIRI rdf:resource="https://w3id.org/circularfactory/ci_test/0.0.1"/>
         <terms:created>2025-01-25</terms:created>
         <terms:creator>Etienne Hoffmann</terms:creator>
         <terms:creator>Jan-Felix Klein</terms:creator>
