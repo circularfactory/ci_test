@@ -11,11 +11,26 @@
   "@id" : "http://www.w3.org/2001/XMLSchema#date",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
 }, {
-  "@id" : "http://xmlns.com/foaf/0.1/homepage",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/orcid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://orcid.org/0000-0002-3704-9567",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Jan-Felix Klein"
+  } ],
+  "http://xmlns.com/foaf/0.1/orcid" : [ {
+    "@id" : "https://orcid.org/0000-0002-3704-9567"
+  } ]
 }, {
   "@id" : "https://w3id.org/circularfactory/ci_test",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
@@ -24,7 +39,7 @@
     "@value" : "2025-09-25"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein"
+    "@id" : "https://orcid.org/0000-0002-3704-9567"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
@@ -37,15 +52,6 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.0.1"
-  } ]
-}, {
-  "@id" : "https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://xmlns.com/foaf/0.1/homepage" : [ {
-    "@id" : "https://orcid.org/0000-0002-3704-9567"
-  } ],
-  "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "Jan-Felix Klein"
   } ]
 }, {
   "@id" : "https://w3id.org/circularfactory/ci_test#myClass",

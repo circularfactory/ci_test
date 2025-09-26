@@ -11,7 +11,7 @@
     <owl:Ontology rdf:about="https://w3id.org/circularfactory/ci_test">
         <owl:versionIRI rdf:resource="https://w3id.org/circularfactory/ci_test/0.0.1"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</terms:created>
-        <terms:creator rdf:resource="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:label>Example Ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>
@@ -52,17 +52,17 @@
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/homepage -->
-
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
-    
-
-
     <!-- http://xmlns.com/foaf/0.1/name -->
 
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/orcid -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/orcid"/>
     
 
 
@@ -118,6 +118,13 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
     <!-- https://w3id.org/circularfactory/ci_test#myClass -->
 
 
@@ -139,12 +146,13 @@
     
 
 
-    <!-- https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein -->
+    <!-- https://orcid.org/0000-0002-3704-9567 -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/circularfactory/ci_test#Jan_Felix_Klein">
-        <foaf:homepage rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Jan-Felix Klein</foaf:name>
+        <foaf:orcid rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
