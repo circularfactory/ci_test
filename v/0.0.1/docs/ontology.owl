@@ -59,13 +59,6 @@
     
 
 
-    <!-- http://xmlns.com/foaf/0.1/orcid -->
-
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/orcid"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -152,7 +145,6 @@
     <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-3704-9567">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Jan-Felix Klein</foaf:name>
-        <foaf:orcid rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 

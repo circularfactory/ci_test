@@ -17,9 +17,6 @@
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://xmlns.com/foaf/0.1/orcid",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "https://orcid.org/0000-0002-3704-9567",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -27,9 +24,6 @@
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Jan-Felix Klein"
-  } ],
-  "http://xmlns.com/foaf/0.1/orcid" : [ {
-    "@id" : "https://orcid.org/0000-0002-3704-9567"
   } ]
 }, {
   "@id" : "https://w3id.org/circularfactory/ci_test",
