@@ -1,0 +1,120 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/circularfactory/ci_test", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1" ],
+    "title" : {
+      "undefined" : "An Example Ontology for CI/CD Pipeline Testing"
+    },
+    "iri" : "https://w3id.org/circularfactory/ci_test",
+    "version" : "0.0.1",
+    "author" : [ "https://orcid.org/0000-0002-3704-9567" ],
+    "labels" : {
+      "undefined" : "Example Ontology"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-3704-9567",
+        "type" : "iri"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2025-09-25",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "An Example Ontology for CI/CD Pipeline Testing",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "0",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/circularfactory/ci_test#myClass",
+    "baseIri" : "https://w3id.org/circularfactory/ci_test",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "myClass"
+    },
+    "comment" : {
+      "undefined" : "An example class"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "individuals" : [ {
+      "iri" : "https://orcid.org/0000-0002-3704-9567",
+      "baseIri" : "https://orcid.org",
+      "annotations" : {
+        "name" : [ {
+          "identifier" : "name",
+          "language" : "undefined",
+          "value" : "Jan-Felix Klein",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "0000-0002-3704-9567"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/circularfactory/ci_test#myObjectProperty",
+    "baseIri" : "https://w3id.org/circularfactory/ci_test",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "myObjectProperty"
+    },
+    "domain" : "0",
+    "comment" : {
+      "undefined" : "An example object property"
+    },
+    "attributes" : [ "object" ],
+    "id" : "3"
+  } ]
+}
