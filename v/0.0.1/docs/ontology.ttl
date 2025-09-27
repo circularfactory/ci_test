@@ -11,6 +11,7 @@
                                             <http://purl.org/dc/terms/created> "2025-09-25"^^xsd:date ;
                                             <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3704-9567> ;
                                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                            <http://purl.org/dc/terms/title> "An Example Ontology for CI/CD Pipeline Testing" ;
                                             rdfs:label "Example Ontology" ;
                                             owl:versionInfo "0.0.1" .
 
@@ -28,6 +29,10 @@
 
 ###  http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/name

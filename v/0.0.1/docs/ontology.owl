@@ -13,6 +13,7 @@
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title>An Example Ontology for CI/CD Pipeline Testing</terms:title>
         <rdfs:label>Example Ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>
     </owl:Ontology>
@@ -49,6 +50,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
