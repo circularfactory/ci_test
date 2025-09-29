@@ -8,6 +8,7 @@
 
 <https://w3id.org/circularfactory/ci_test> rdf:type owl:Ontology ;
                                             owl:versionIRI <https://w3id.org/circularfactory/ci_test/0.0.1> ;
+                                            owl:imports <https://w3id.org/circularfactory/Core> ;
                                             <http://purl.org/dc/terms/created> "2025-09-25"^^xsd:date ;
                                             <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3704-9567> ;
                                             <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;

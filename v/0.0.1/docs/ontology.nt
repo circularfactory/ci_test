@@ -1,5 +1,6 @@
 <https://w3id.org/circularfactory/ci_test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/circularfactory/ci_test> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/circularfactory/ci_test/0.0.1> .
+<https://w3id.org/circularfactory/ci_test> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/circularfactory/Core> .
 <https://w3id.org/circularfactory/ci_test> <http://purl.org/dc/terms/created> "2025-09-25"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/circularfactory/ci_test> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3704-9567> .
 <https://w3id.org/circularfactory/ci_test> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .

@@ -47,6 +47,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Example Ontology"
   } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "https://w3id.org/circularfactory/Core"
+  } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/circularfactory/ci_test/0.0.1"
   } ],

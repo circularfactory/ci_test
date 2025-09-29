@@ -10,6 +10,7 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/circularfactory/ci_test">
         <owl:versionIRI rdf:resource="https://w3id.org/circularfactory/ci_test/0.0.1"/>
+        <owl:imports rdf:resource="https://w3id.org/circularfactory/Core"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-25</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0000-0002-3704-9567"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
