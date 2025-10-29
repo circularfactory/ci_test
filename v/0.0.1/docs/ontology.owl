@@ -136,6 +136,15 @@
     
 
 
+    <!-- https://w3id.org/circularfactory/ci_test#myClass2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/circularfactory/ci_test#myClass2">
+        <rdfs:comment>Another example class</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

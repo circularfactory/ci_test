@@ -70,6 +70,11 @@ xsd:date rdf:type rdfs:Datatype .
          rdfs:comment "An example class" .
 
 
+###  https://w3id.org/circularfactory/ci_test#myClass2
+:myClass2 rdf:type owl:Class ;
+          rdfs:comment "Another example class" .
+
+
 #################################################################
 #    Individuals
 #################################################################

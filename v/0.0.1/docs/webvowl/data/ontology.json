@@ -55,6 +55,9 @@
   }, {
     "id" : "2",
     "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
@@ -63,6 +66,17 @@
     "label" : {
       "undefined" : "Thing"
     }
+  }, {
+    "iri" : "https://w3id.org/circularfactory/ci_test#myClass2",
+    "baseIri" : "https://w3id.org/circularfactory/ci_test",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "myClass2"
+    },
+    "comment" : {
+      "undefined" : "Another example class"
+    },
+    "id" : "1"
   }, {
     "iri" : "https://w3id.org/circularfactory/ci_test#myClass",
     "baseIri" : "https://w3id.org/circularfactory/ci_test",
@@ -73,7 +87,7 @@
     "comment" : {
       "undefined" : "An example class"
     },
-    "id" : "1"
+    "id" : "2"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/Person",
     "baseIri" : "http://xmlns.com/foaf/0.1",
@@ -97,10 +111,10 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "2"
+    "id" : "3"
   } ],
   "property" : [ {
-    "id" : "3",
+    "id" : "4",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -115,6 +129,6 @@
       "undefined" : "An example object property"
     },
     "attributes" : [ "object" ],
-    "id" : "3"
+    "id" : "4"
   } ]
 }
